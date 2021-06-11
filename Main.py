@@ -1,9 +1,13 @@
 def attachColor(color):
-    colors = ["black", "red", "green", "blue", "yellow", "pink", "cyan", "white", ]
-    return "\033[0;3" + str(colors.index(color)) + "m"
+    return \
+        "\033[0;3" \
+        + str(
+            ["black", "red", "green", "yellow", "blue", "pink", "cyan", "gray", ]
+            .index(color)
+        ) \
+        + "m"
 
-if __name__ == "__main__" :
-    colors = ["black", "red", "green", "blue", "yellow", "pink", "cyan", "white", ]
-    for color in colors :
-        print(attachColor(color) + "Hello")
 
+if __name__ == "__main__":
+    for color in ["black", "red", "green", "yellow", "blue", "pink", "cyan", "gray", ]:
+        print(attachColor(color) + color.upper())
