@@ -12,7 +12,7 @@ if __name__ == "__main__" :
 ## Colors :
 
 | ColorName | colorName |
-|: --- :|: --- :|
+| : --- : | : --- : |
 | Black | `black` |
 | Red | `red` |
 | Green | `green` |
