@@ -26,5 +26,9 @@ if __name__ == "__main__" :
 + attach Color  : `attachColor( colorName )`
 
 ## How To use :
-+ `print( attachColor("red") + "Red", attachColor("yellow") + "Yellow", attachColor("blue") + "Bule")`
+```python
+colorName = "red"
+ColorName = "Red" # Red is a String
+print( attachColor( colorName ) + ColorName )
+```
 
