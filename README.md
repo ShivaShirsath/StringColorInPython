@@ -10,7 +10,7 @@ if __name__ == "__main__" :
         print(attachColor(color) + "Hello")
 ```
 ## Colors :
-+---+---+
++ --- + --- +
 + ColorName + colorName +
 + Black + `black` +
 + Red * `red` +
