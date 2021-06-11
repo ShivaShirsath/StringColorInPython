@@ -9,15 +9,17 @@ if __name__ == "__main__" :
     for color in colors :
         print(attachColor(color) + "Hello")
 ```
-## Colors (color Name) :
-+ Black   : `black`
-+ Red     : `red`
-+ Green   : `green`
-+ Blue    : `blue`
-+ Yellow  : `yellow`
-+ Pink    : `pink`
-+ Cyan    : `cyan`
-+ White   : `white`
+## Colors :
++---+---+
++ ColorName + colorName +
++ Black + `black` +
++ Red * `red` +
++ Green + `green` +
++ Blue + `blue` +
++ Yellow + `yellow` +
++ Pink + `pink` +
++ Cyan + `cyan` +
++ White + `white` +
 
 ## Method / Function :
 + attach Color  : `attachColor( colorName )`
