@@ -12,7 +12,7 @@ if __name__ == "__main__" :
 ## Colors :
 
 | ColorName | colorName |
-| --- | --- |
+|: --- :|: --- :|
 | Black | `black` |
 | Red | `red` |
 | Green | `green` |
@@ -28,7 +28,7 @@ if __name__ == "__main__" :
 ## How To use :
 ```python
 colorName = "red"
-ColorName = "Red" # Red is a String
-print( attachColor( colorName ) + ColorName )
+string = "Red" # Red is a String
+print( attachColor( colorName ) + string )
 ```
 
