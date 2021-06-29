@@ -1,4 +1,4 @@
-def attachColor(color):
+def attach_color(_color: str):
     return \
         "\033[0;3" \
         + str(
@@ -10,4 +10,4 @@ def attachColor(color):
 
 if __name__ == "__main__":
     for color in ["default", "red", "green", "yellow", "blue", "pink", "cyan", "gray", ]:
-        print(attachColor(color) + color.upper())
+        print(attach_color(color) + color.upper())
