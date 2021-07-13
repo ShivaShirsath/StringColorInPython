@@ -29,7 +29,7 @@ if __name__ == "__main__":
 | White | `white` |
 
 ```python
-\033[0;31m
+\033031m
 ```
 
 ## Method / Function :
