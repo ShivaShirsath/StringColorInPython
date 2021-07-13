@@ -28,7 +28,9 @@ if __name__ == "__main__":
 | Cyan | `cyan` |
 | White | `white` |
 
-```bash \033[0;31m ```
+```bash
+\033[0;31m
+```
 
 ## Method / Function :
 + attach Color  : `attachColor( colorName )`
