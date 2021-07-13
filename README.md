@@ -27,6 +27,7 @@ if __name__ == "__main__":
 | Pink | `pink` |
 | Cyan | `cyan` |
 | White | `white` |
+\033[0;31m
 
 ## Method / Function :
 + attach Color  : `attachColor( colorName )`
