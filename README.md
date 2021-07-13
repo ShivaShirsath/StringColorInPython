@@ -28,7 +28,7 @@ if __name__ == "__main__":
 | Cyan | `cyan` |
 | White | `white` |
 
-```bash
+```python
 \033[0;31m
 ```
 
